@@ -1,0 +1,26 @@
+.admin-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .admin-section {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .admin-section h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .admin-page {
+      grid-template-columns: 1fr; /* Hiển thị thành 1 cột trên màn hình nhỏ */
+    }
+  }
+  

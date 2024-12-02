@@ -1,0 +1,87 @@
+.login {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 0 20px;
+    padding: 20px;
+    background-color: rgb(231, 178, 109);
+    height: 20px ;
+  }
+
+  .phone{
+    margin-right: 50px;
+    color: rgb(253, 33, 48);
+  }
+
+  .button:hover{
+    color: rgb(87, 219, 210) ;
+    cursor: pointer;
+  }
+
+  .header {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    justify-content: center;
+  }
+
+  .img-logo{
+    width: 200px;
+    height: 100px;
+  }
+
+  .name-shop {
+    font-family: fantasy;
+    font-size: 70px;
+    color: #e07b29;
+    margin-left: 10px;
+  }
+
+  form {
+    margin-top: 40px;
+    margin-left: 100px;
+    
+  }
+
+  .form-control{
+    width: 500px ;
+  }
+
+  .cart-logo {
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+
+  
+
+  .login-page{
+    background-color: rgb(231, 178, 109);
+    font-size: 15px;  
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: white;
+  }
+
+  .login-page:hover {
+    color: #24a9e2e0;
+  }
+  
+  .register{
+    background-color: rgb(231, 178, 109);
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: white;
+  }
+
+  .register:hover {
+    color: #5ee281e0;
+  }
+  .content {
+    margin-top: 150px; 
+    padding: 20px;
+  }
